@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Links</h1>
+    <p>Para criar um link utiliza-se a tag A, e seu principal atriubto é o href, que cria uma referência hipertexto</p>
+    <a href="https://www.youtube.com">Acesse o YouTube</a>
+    <p>Dentro do atributo href colocamos uma URL completa para outro site</p>
+    <p>Também podemos adicionar um atributo hreflang, que indica para o navegador qual é o idioma do site que estamos referenciando</p>
+    <a href="https://www.youtube.com" hreflang="en">Acesse o YouTube</a>
+    <p>Também podemos indicar onde o link vai ser aberto, com o atributo target</p>
+    <p>_blank: nova guia em branco</p>
+    <a href="https://www.youtube.com" 
+    target="_blank">Acesse o YouTube</a>
+    <p>_self: na janela atual(padrão)</p>
+    <a href="https://www.youtube.com" 
+    target="_self">Acesse o YouTube</a>
+    <p>_top: vai desfazer todos os frames e abrir o dsetino no navegador completo</p>
+    <a href="https://www.youtube.com" 
+    target="_top">Acesse o YouTube</a>
+    <p>_parent:</p>
+    <a href="https://www.youtube.com" 
+    target="_parent">Acesse o YouTube</a>
+
+    <h3>Atributo rel</h3>
+    <p>valores: next (proxima parte do documento atual); prev (parte anterior do documento atual); author (link para o autor do artigo atual); external (link para um site que não faz parte do site atual); nofollow (link para um site nao endossado)</p>
+
+    <h2>Link local</h2>
+    <a href="pagina2.html" rel="next" target="_self">Pagina 2</a>
+    </body>
+
+    <p>acesse a terceira página clicando <a href="terceira pagina/pag003.html" rel="next" target="_self">aqui</a></p>
+    <h3>Downloads</h3>
+
+    <a href="o-que-e-paisagem.jpg" download="o-que-e-paisagem.jpg" type="image/png">Baixe a imagem clicando aqui</a> <br>
+    <a href="Index.html" download="Index.html" type="text/html">Baixe o HTML da página</a>
+</html>

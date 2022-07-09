@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <picture>
+        <source media="(max-width: 770px)" srcset="imagens/img-pequena.png" type="image/png">
+        <source media="(max-width: 1130px)" srcset="imagens/img-media.png" type="image/png">
+        <img src="imagens/img-grande.png" alt="Imagem flexível">
+    </picture>
+
+    <!-- <picture>
+        <source media="(min-width: 1130px)" srcset="imagens/img-grande.png" type="image/png">
+        <source media="(min-width: 770px)" srcset="imagens/img-media.png" type="image/png">
+        <img src="imagens/img-pequena.png" alt="Imagem flexível">
+    </picture> -->
+    
+</body>
+</html>

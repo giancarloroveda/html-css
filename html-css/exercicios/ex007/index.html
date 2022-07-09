@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatação</h2> <!--fonte monoespaçada-->
+    <p>o comando <code>document.getElementById("teste")</code> é escrito em JavaScript.</p>
+    <pre>
+        <code>
+num = int(input("Digite um número"))
+if num % 2 == 0:
+    print(f'O número {num} é PAR')
+else:
+    print(f'O número {num} é ÍMPAR')
+print('Fim do progama')
+        </code>
+    </pre>
+
+    <h2>Citações simples</h2>
+    <p>Como diria o pai d eum amigo: <q>o computador é um burro muito rápido.</q></p>
+    <h2>Citações completas</h2>
+    <p>Segundo Geraldo Chacon. em seu livro Pré-Modernismo:</p>
+    <blockquote cite="https://books.google.com.br/books?id=qSF6DwAAQBAJ&printsec=frontcover&dq=pr%C3%A9+modernismo&hl=pt-PT&sa=X&redir_esc=y#v=onepage&q=pr%C3%A9%20modernismo&f=false"> <!--o atributo cite serve para informar aos mecanismos de busca e a parte interna do site a origem da citação. Não tem nenhum efeito visual para o usuário.-->
+        Monteiro Lobato talvez seja mais conhecido do grande público pela sua literatura infantil, mas seus trabalhos mais importantes para a crítica literária são os seu contos, marcados pelo aspecto regionalista e pela visão questionadora.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <h2>Texto invertido</h2> <!--inútil fds kkkkkkkkk-->
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+</body>
+</html>

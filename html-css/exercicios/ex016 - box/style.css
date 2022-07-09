@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+
+body {
+    margin: 0px;
+    text-align: justify;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+header {
+    margin: 0px;
+    background-image: linear-gradient(90deg, #2D84B3, #59C6FF);
+    border-bottom: 5px #59C6FF solid;
+    padding-top: 0px;
+    box-shadow: 2px 2px 10px #4684E8;
+}
+
+#header-title {
+    font: 4em 'Rubik Moonrocks';
+    margin-top: 0px;
+    margin-left: 100px;
+    padding: 10px;
+    color: white;
+}
+
+nav{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+nav > span > a{
+    text-decoration: none;
+    color: white;
+    font: bold normal 2em Staatliches;
+    
+}
+
+nav > span {
+    display: inline-block;
+    height: 40px;
+    width: 140px;
+    margin-right: 40px;
+    text-align: center;
+    border: 2px solid white;
+    background-color: #73ceff;
+}
+
+section > h2 {
+    margin: 0px 0px 30px 0px;
+    font: 4em 'Staatliches';
+    color: #2D84B3;
+}
+
+section {
+    margin: 30px 500px 200px 150px;
+    border: 10px solid #FFB759;
+    border-radius: 30px;
+    box-shadow: 3px 3px 20px #966b33bd;
+    padding: 30px;
+}
+
+article {
+    border-right: 3px solid #FFB759;
+    border-bottom: 3px solid #FFB759;
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: 8px;
+
+}
+
+.autor-foto > img {
+    width: 250px;
+    border: 2px solid black;
+    margin-left: 50px;
+}
+
+p {
+    text-indent: 30px;
+}
+
+.nome-autor {
+    font-style: italic;
+}
+
+.receita > img{
+    display: inline-block;
+    width: 200px;
+}
+
+.receita > ul {
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer > p {
+    padding: 1px;
+}
+
+section {
+    min-width: 400px;
+    max-width: 1000px;
+}

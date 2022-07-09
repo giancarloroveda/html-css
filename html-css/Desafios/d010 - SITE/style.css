@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url("fontes/idroid.otf") format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header {
+    background-image: linear-gradient(to top, #1A5C38, #3CD983);
+    color: white;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.541);
+}
+
+header > h1 {
+    text-align: center;
+    padding: 30px;
+    
+}
+
+header > p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(204, 204, 204);
+}
+
+header > nav {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 0px 0px 5px 15px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+nav > a:hover {
+    background-color: rgba(255, 255, 255, 0.699);
+    
+}
+
+nav > a:active {
+    color: aquamarine;
+}
+
+main {
+    background-color: #84E1AD;
+}
+
+section {
+    width: 1000px;
+    background-color: white;
+    margin: auto;
+}
+
+img {
+    padding: 30px 0px;
+}
+
+iframe {
+    padding: 30px 0px;
+}
+
+.video-content {
+    background-color: #1A5C38;
+    text-align: center;
+}
+
+.text-content {
+    margin: 30px;
+}
+
+.aprender-mais {
+    padding: 30px;
+}
+
+h2, h3 {
+    font-family: idroid;
+    color: #1A5C38;
+    margin: 20px 0px;
+}
+
+h2#aprender-mais {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #68947c;
+}
+
+h3 {
+    background-image: linear-gradient(90deg, #84E1AD, white);
+}
+
+p {
+    text-indent: 30px;
+}
+
+.destaque {
+    color: #1A5C38;
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+    color: #1A5C38;
+    font-weight: bold;
+}
+
+.link::after {
+    content: '🔗';
+}
+
+footer {
+    background-color: #1A5C38;
+    text-align: center;
+}
