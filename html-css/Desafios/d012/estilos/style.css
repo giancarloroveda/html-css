@@ -35,7 +35,6 @@ header > p {
     color: rgba(255, 255, 255, 0.808);
     font-family: var(--font00);
     padding-bottom: 50px;
-    font-size: 1.8vw;
 }
 
 header a {
@@ -50,7 +49,7 @@ header a:hover {
 
 main section {
     margin-bottom: 150px;
-    font: normal normal 3vw var(--font02);
+    font: normal normal 4vw var(--font02);
     line-height: 2em;
 }
 
