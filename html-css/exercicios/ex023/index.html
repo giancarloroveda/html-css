@@ -12,12 +12,16 @@
 
         table {
             width: 500px;
+            height: 700px;
             border-collapse: collapse;
+            font-size: 2em;
         }
 
         td {
             padding: 5px;
             border: 1px solid black;
+            text-align: center;
+            vertical-align: middle;
         }
 
         .linha-destaque {
@@ -26,6 +30,11 @@
 
         .data-destaque {
             background-color: lightgreen;
+        }
+
+        .numero {
+            color: rgb(72, 236, 72);
+            text-align: right;
         }
     </style>
 </head>
@@ -63,12 +72,12 @@
             <tr>
                 <td>A5</td>
                 <td>B5</td>
-                <td></td>
+                <td class="numero">C5</td>
             </tr>
             <tr>
                 <td>A6</td>
-                <td></td>
-                <td>C6</td>
+                <td>B6</td>
+                <td class="numero">C6</td>
             </tr>
         </table>
 </body>
